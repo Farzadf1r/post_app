@@ -22,6 +22,15 @@ class UnauthorisedException extends CustomException {
   UnauthorisedException([message]) : super(message, "Unauthorised: ");
 }
 
+class ForbiddenException extends CustomException {
+  ForbiddenException([message]) : super(message, "Access Forbidden: ");
+}
+
 class InvalidInputException extends CustomException {
   InvalidInputException([String message]) : super(message, "Invalid Input: ");
+}
+
+class ServerException extends CustomException {
+  ServerException([String message])
+      : super(message, "Server Error: ");
 }
