@@ -23,6 +23,6 @@ class TripRepository {
 
   Future<String> deleteTrip(int id) async {
     final response = await _provider.delete(_trips_url + id.toString());
-    return Trip.fromJsonMap(response);
+    return response;
   }
 }

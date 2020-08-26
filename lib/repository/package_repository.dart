@@ -23,6 +23,6 @@ class PackageRepository {
 
   Future<String> deletePackage(int id) async {
     final response = await _provider.delete(_packages_url + id.toString());
-    return Package.fromJsonMap(response);
+    return response;
   }
 }
