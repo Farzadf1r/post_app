@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:post_app/form.dart';
 
+
 class SecondTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,7 +10,7 @@ class SecondTab extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: FormScreen(),
+      home: FormScreen()
     );
   }
 }

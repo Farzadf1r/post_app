@@ -5,9 +5,7 @@ import 'tabs/third.dart';
 
 void main() {
   runApp(MaterialApp(
-    // Title
-      title: "Using Tabs",
-      // Home
+
       home: MyHome()));
 }
 
@@ -78,3 +76,7 @@ class MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
     );
   }
 }
+
+
+
+

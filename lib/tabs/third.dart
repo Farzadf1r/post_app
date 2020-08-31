@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:post_app/phone_otp/continue_with_phone.dart';
+import 'package:post_app/registration/userScreen.dart';
 
 class ThirdTab extends StatelessWidget {
   @override
@@ -13,7 +13,7 @@ class ThirdTab extends StatelessWidget {
         textTheme: GoogleFonts.rubikTextTheme(),
       ),
       debugShowCheckedModeBanner: false,
-      home: ContinueWithPhone(),
+      home: UserScreen(),
     );
   }
 }
